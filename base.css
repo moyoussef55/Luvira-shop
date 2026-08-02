@@ -1,0 +1,89 @@
+/* ===========================
+   BASE
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Cairo',sans-serif;
+
+    background:var(--secondary);
+
+    color:var(--text);
+
+    direction:rtl;
+
+    overflow-x:hidden;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    outline:none;
+
+    transition:var(--transition);
+
+}
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    outline:none;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:12px 15px;
+
+    font-family:inherit;
+
+}
+
+.container{
+
+    width:min(100%,var(--container));
+
+    margin:auto;
+
+    padding:0 20px;
+
+}

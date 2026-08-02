@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUVIRA Cosmetics</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<h1>LUVIRA Cosmetics</h1>
+</div>
+
+<nav>
+<a href="#">الرئيسية</a>
+<a href="#products">المنتجات</a>
+<a href="#about">من نحن</a>
+<a href="#contact">تواصل معنا</a>
+</nav>
+
+</header>
+<main>
+
+<section class="hero">
+    <h2>جمالك يبدأ من هنا ✨</h2>
+    <p>أفضل منتجات العناية بالبشرة والشعر بأسعار مميزة.</p>
+    <a href="#products" class="btn">تسوق الآن</a>
+</section>
+
+<section id="products" class="products">
+
+    <h2>منتجاتنا</h2>
+
+    <div class="product-grid">
+
+        <section id="cart" class="cart">
+  <h2>🛒 سلة المشتريات</h2>
+
+  <div id="cart-items"></div>
+
+  <h3>الإجمالي: <span id="cart-total">0</span> جنيه</h3>
+
+  <button id="checkout-btn">
+    تأكيد الطلب
+  </button>
+</section>
+
+    </div>
+<section id="checkout" class="checkout">
+
+<h2>إتمام الطلب</h2>
+
+<input type="text" id="customer-name" placeholder="الاسم بالكامل">
+
+<input type="tel" id="customer-phone" placeholder="رقم الهاتف">
+
+<select id="governorate">
+    <option value="">اختر المحافظة</option>
+</select>
+
+<input type="text" id="shipping-price" placeholder="سعر الشحن" readonly>
+
+<input type="text" id="customer-address" placeholder="العنوان بالتفصيل">
+
+<textarea id="customer-notes" placeholder="ملاحظات (اختياري)"></textarea>
+
+<h3>
+إجمالي المنتجات :
+<span id="products-total">0</span>
+جنيه
+</h3>
+
+<h3>
+الشحن :
+<span id="shipping-total">0</span>
+جنيه
+</h3>
+
+<h2>
+الإجمالي النهائي :
+<span id="final-total">0</span>
+جنيه
+</h2>
+
+<button id="confirm-order">
+تأكيد الطلب
+</button>
+
+</section>
+<section id="about" class="about">
+    <h2>من نحن</h2>
+    <p>
+        LUVIRA Cosmetics متجر متخصص في منتجات العناية بالبشرة والشعر،
+        ونقدم منتجات أصلية بجودة عالية وأسعار مناسبة.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>تواصل معنا</h2>
+    <p>📞 01000000000</p>
+    <p>📧 info@luvira.com</p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 LUVIRA Cosmetics - جميع الحقوق محفوظة</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
