@@ -1,10 +1,3 @@
-const SUPABASE_URL = "ضع_رابط_مشروع_Supabase";
-const SUPABASE_KEY = "ضع_مفتاح_anon_public";
-
-const supabase = window.supabase.createClient(
-    SUPABASE_URL,
-    SUPABASE_KEY
-);
 
 const loginBtn = document.getElementById("loginBtn");
 const message = document.getElementById("message");
