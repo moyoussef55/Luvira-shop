@@ -1,12 +1,7 @@
-// =====================================
-// LUVIRA COSMETICS - SUPABASE
-// =====================================
-
-const SUPABASE_URL = "https://btjjjsewlfyllatlasoy.supabase.co";
-
-const SUPABASE_KEY = "sb_publishable_hNFVGcinK8LtYz-s4oCoWg_FSW3GfTs";
+const SUPABASE_URL = "ضع رابط مشروع Supabase هنا";
+const SUPABASE_ANON_KEY = "ضع مفتاح anon public هنا";
 
 const supabase = window.supabase.createClient(
-    SUPABASE_URL,
-    SUPABASE_KEY
+  SUPABASE_URL,
+  SUPABASE_ANON_KEY
 );
